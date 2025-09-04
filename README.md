@@ -37,9 +37,41 @@ Their final LP, *Future Orphans* (2025), cemented their role as a cornerstone of
 
 ---
 
-## Press
-- [ThePunkSite — Final Album Announcement](https://www.thepunksite.com/news/american-standards-release-final-album-future-orphans/) (2025)  
-- [MetalNoise — Review: *Future Orphans*](https://metalnoise.net/2025/06/review-american-standards-future-orphans) (2025)  
+<section id="press">
+  <h2>Press & Premieres</h2>
+  <ul>
+    <li>
+      <a href="https://www.thepunksite.com/news/american-standards-release-final-album-future-orphans/" target="_blank" rel="noopener">
+        ThePunkSite — Final Album Announcement (2025)
+      </a>
+    </li>
+    <li>
+      <a href="https://metalnoise.net/2025/06/review-american-standards-future-orphans" target="_blank" rel="noopener">
+        MetalNoise — Review: <em>Future Orphans</em> (2025)
+      </a>
+    </li>
+    <li>
+      <a href="https://www.decibelmagazine.com/2023/01/10/track-premiere-american-standards-the-tourist/" target="_blank" rel="noopener">
+        Decibel Magazine — Track Premiere: “The Tourist” (2023)
+      </a>
+    </li>
+    <li>
+      <a href="https://metalinjection.net/new-music/get-torn-limb-from-limb-by-american-standards-new-song-phantom-limb" target="_blank" rel="noopener">
+        Metal Injection — New Song: “Phantom Limb” (2022)
+      </a>
+    </li>
+    <li>
+      <a href="https://lambgoat.com/features/409/american-standards-the-dealer-video-premiere" target="_blank" rel="noopener">
+        Lambgoat — Video Premiere: “The Dealer” (2022)
+      </a>
+    </li>
+    <li>
+      <a href="https://lambgoat.com/features/357/american-standards-writers-block-party-video-premiere" target="_blank" rel="noopener">
+        Lambgoat — Video Premiere: “Writers Block Party” (2017)
+      </a>
+    </li>
+  </ul>
+</section>
 
 ---
 

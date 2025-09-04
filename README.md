@@ -1,5 +1,7 @@
 # American Standards (AZ) — Legacy Archive
 
+![American Standards — Future Orphans promo](https://f4.bcbits.com/img/0025929526_10.jpg)
+
 [![Website](https://img.shields.io/badge/Website-americanstandards.github.io-blue?style=for-the-badge)](https://americanstandards.github.io/AmericanStandards/)
 [![Bandcamp](https://img.shields.io/badge/Bandcamp-Stream-green?style=for-the-badge&logo=bandcamp)](https://americanstndrds.bandcamp.com/)
 [![Spotify](https://img.shields.io/badge/Spotify-Listen-brightgreen?style=for-the-badge&logo=spotify)](https://open.spotify.com/artist/6umD0mkxpmhNFEn5AgPAhp)
@@ -13,8 +15,29 @@
 
 ## About
 **American Standards** were a chaotic hardcore / mathcore band from **Phoenix, Arizona (2011–2025)**.  
-Blending chaotic hardcore/mathcore with metallic hardcore aggression, punk urgency, and metalcore precision, the band became known for explosive live shows, raw personal lyrics, and a relentless DIY ethic.  
+Blending metallic hardcore aggression with punk urgency and metalcore precision, the band became known for explosive live shows, raw personal lyrics, and a relentless DIY ethic.  
 Their final LP, *Future Orphans* (2025), cemented their role as a cornerstone of Arizona’s heavy underground.
+
+---
+
+## Band Members
+
+### Final Lineup (2011–2025)
+- **Brandon Kellum** — Vocals (2011–2025)  
+- **Corey Skowronski** — Guitars/Bass (2011–2025)  
+- **Steven Mandell** — Bass (2013–2025)  
+- **Chris Daley** — Drums (2020–2025)  
+
+### Former Members
+- **Mitch Hosier** — Drums (2016–2020)  
+- **Mike Cook** — Drums (2013–2015)  
+- **Brennen Westermeyer** — Lead Guitar (2011–2013)  
+- **Geoff Gittleson** — Drums (2011–2013)  
+- **Cody Conrad** — Rhythm Guitar (2011–2012; died 2015)  
+
+### Touring Members
+- **Craig Burch** — Bass (2013)  
+- **Tommy Mills** — Drums (2015)  
 
 ---
 
@@ -31,7 +54,10 @@ Their final LP, *Future Orphans* (2025), cemented their role as a cornerstone of
 ## Timeline
 - **2011:** Band forms in Phoenix, AZ  
 - **2012:** Debut LP *Still Life*  
-- **2017:** *Anti-Melody* LP  
+- **2013:** EP *The Death of Rhythm and Blues*  
+- **2014:** EP *Hungry Hands*  
+- **2017:** LP *Anti-Melody*  
+- **2022:** EP *Dopamine Dealer*  
 - **Dec 9, 2023:** Farewell show — The Rebel Lounge, Phoenix  
 - **Jun 30, 2025:** Final LP *Future Orphans* released  
 
@@ -54,11 +80,11 @@ Their final LP, *Future Orphans* (2025), cemented their role as a cornerstone of
 - [**Lambgoat — Video Premiere: “The Dealer”**](https://lambgoat.com/features/409/american-standards-the-dealer-video-premiere) (2022)  
   *“A blistering new track tackling themes of existentialism and self-doubt, drawing comparisons to **Every Time I Die** and **The Chariot**.”*  
 
-- [**Lambgoat — Video Premiere: “Writers Block Party”**](https://lambgoat.com/features/357/american-standards-writers-block-party-video-premiere) (2017)  
-  *“Noise punk chaos that nods to **The Chariot** while carving out their own path in Arizona hardcore.”*  
-
 - [**Decibel Magazine — Track Premiere: “Weep”**](https://www.decibelmagazine.com/2018/05/18/track-premiere-american-standards-weep/) (2018)  
   *“‘Weep’ shows **American Standards** at their most heartfelt — channeling tragedy into explosive catharsis.”*  
+
+- [**Lambgoat — Video Premiere: “Writers Block Party”**](https://lambgoat.com/features/357/american-standards-writers-block-party-video-premiere) (2017)  
+  *“Noise punk chaos that nods to **The Chariot** while carving out their own path in Arizona hardcore.”*  
 
 ---
 

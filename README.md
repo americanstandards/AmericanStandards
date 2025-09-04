@@ -12,8 +12,8 @@
 ---
 
 ## About
-American Standards were a chaotic hardcore / mathcore band from **Phoenix, Arizona (2011–2025)**.  
-Blending metallic hardcore aggression with punk urgency and metalcore precision, the band became known for explosive live shows, raw personal lyrics, and a relentless DIY ethic.  
+**American Standards** were a chaotic hardcore / mathcore band from **Phoenix, Arizona (2011–2025)**.  
+Blending chaotic hardcore/mathcore with metallic hardcore aggression, punk urgency, and metalcore precision, the band became known for explosive live shows, raw personal lyrics, and a relentless DIY ethic.  
 Their final LP, *Future Orphans* (2025), cemented their role as a cornerstone of Arizona’s heavy underground.
 
 ---
@@ -37,46 +37,28 @@ Their final LP, *Future Orphans* (2025), cemented their role as a cornerstone of
 
 ---
 
-<section id="press">
-  <h2>Press & Premieres</h2>
-  <ul>
-    <li>
-      <a href="https://www.thepunksite.com/news/american-standards-release-final-album-future-orphans/" target="_blank" rel="noopener">
-        ThePunkSite — Final Album Announcement (2025)
-      </a>
-    </li>
-    <li>
-      <a href="https://metalnoise.net/2025/06/review-american-standards-future-orphans" target="_blank" rel="noopener">
-        MetalNoise — Review: <em>Future Orphans</em> (2025)
-      </a>
-    </li>
-    <li>
-      <a href="https://www.decibelmagazine.com/2023/01/10/track-premiere-american-standards-the-tourist/" target="_blank" rel="noopener">
-        Decibel Magazine — Track Premiere: “The Tourist” (2023)
-      </a>
-    </li>
-    <li>
-      <a href="https://metalinjection.net/new-music/get-torn-limb-from-limb-by-american-standards-new-song-phantom-limb" target="_blank" rel="noopener">
-        Metal Injection — New Song: “Phantom Limb” (2022)
-      </a>
-    </li>
-    <li>
-      <a href="https://lambgoat.com/features/409/american-standards-the-dealer-video-premiere" target="_blank" rel="noopener">
-        Lambgoat — Video Premiere: “The Dealer” (2022)
-      </a>
-    </li>
-    <li>
-      <a href="https://lambgoat.com/features/357/american-standards-writers-block-party-video-premiere" target="_blank" rel="noopener">
-        Lambgoat — Video Premiere: “Writers Block Party” (2017)
-      </a>
-    </li>
-    <li>
-  <a href="https://www.decibelmagazine.com/2018/05/18/track-premiere-american-standards-weep/" target="_blank" rel="noopener">
-    Decibel Magazine – Track Premiere: “Weep”
-  </a>
-</li>
-  </ul>
-</section>
+## Press & Premieres
+
+- [**ThePunkSite — Final Album Announcement**](https://www.thepunksite.com/news/american-standards-release-final-album-future-orphans/) (2025)  
+  *“American Standards’ final album **Future Orphans** is a conceptually tight, emotionally ferocious record that captures the angst of a generation caught between collapse and resistance.”*  
+
+- [**MetalNoise — Review: *Future Orphans***](https://metalnoise.net/2025/06/review-american-standards-future-orphans) (2025)  
+  *“Balancing raw emotional power with technical chaos, **Future Orphans** may be American Standards’ most definitive and dangerous release yet.”*  
+
+- [**Decibel Magazine — Track Premiere: “The Tourist”**](https://www.decibelmagazine.com/2023/01/10/track-premiere-american-standards-the-tourist/) (2023)  
+  *“Phoenix metallic hardcore punks **American Standards** deliver blistering chaos and searing urgency on their unhinged new single.”*  
+
+- [**Metal Injection — New Song: “Phantom Limb”**](https://metalinjection.net/new-music/get-torn-limb-from-limb-by-american-standards-new-song-phantom-limb) (2022)  
+  *“‘Phantom Limb’ is a pretty jarring listening experience — proof that **American Standards** thrive in chaos.”*  
+
+- [**Lambgoat — Video Premiere: “The Dealer”**](https://lambgoat.com/features/409/american-standards-the-dealer-video-premiere) (2022)  
+  *“A blistering new track tackling themes of existentialism and self-doubt, drawing comparisons to **Every Time I Die** and **The Chariot**.”*  
+
+- [**Lambgoat — Video Premiere: “Writers Block Party”**](https://lambgoat.com/features/357/american-standards-writers-block-party-video-premiere) (2017)  
+  *“Noise punk chaos that nods to **The Chariot** while carving out their own path in Arizona hardcore.”*  
+
+- [**Decibel Magazine — Track Premiere: “Weep”**](https://www.decibelmagazine.com/2018/05/18/track-premiere-american-standards-weep/) (2018)  
+  *“‘Weep’ shows **American Standards** at their most heartfelt — channeling tragedy into explosive catharsis.”*  
 
 ---
 

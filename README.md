@@ -70,6 +70,11 @@ Their final LP, *Future Orphans* (2025), cemented their role as a cornerstone of
         Lambgoat — Video Premiere: “Writers Block Party” (2017)
       </a>
     </li>
+    <li>
+  <a href="https://www.decibelmagazine.com/2018/05/18/track-premiere-american-standards-weep/" target="_blank" rel="noopener">
+    Decibel Magazine – Track Premiere: “Weep”
+  </a>
+</li>
   </ul>
 </section>
 

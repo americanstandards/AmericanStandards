@@ -14,6 +14,13 @@
     <priority>0.8</priority>
   </url>
 
+  <!-- Members section -->
+  <url>
+    <loc>https://americanstandards.github.io/AmericanStandards/#members</loc>
+    <changefreq>yearly</changefreq>
+    <priority>0.7</priority>
+  </url>
+
   <!-- Discography section -->
   <url>
     <loc>https://americanstandards.github.io/AmericanStandards/#discography</loc>

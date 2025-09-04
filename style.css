@@ -1,13 +1,19 @@
 /* General layout */
+* { box-sizing: border-box; }
+html { scroll-behavior: smooth; }
 body {
   font-family: system-ui, -apple-system, "Segoe UI", Roboto, Arial, sans-serif;
   margin: 0;
   padding: 0;
-  line-height: 1.6;
+  line-height: 1.65;
   color: #1b1b1b;
   background: #fff;
+  -webkit-text-size-adjust: 100%;
 }
 
+img { max-width: 100%; height: auto; display: block; }
+
+/* Page container */
 main {
   max-width: 860px;
   margin: 0 auto;
@@ -30,7 +36,7 @@ header {
 
 h1 {
   margin: 15px 0 5px;
-  font-size: 2rem;
+  font-size: clamp(1.75rem, 2.5vw + 1rem, 2.25rem);
 }
 
 .tagline {
@@ -39,31 +45,42 @@ h1 {
 }
 
 /* Navigation */
-.topnav {
-  margin-top: 10px;
-}
+.topnav { margin-top: 10px; }
 .topnav a {
   margin: 0 8px;
-  text-decoration: none;
+  text-decoration: underline; /* ensures non-color users see links */
+  text-underline-offset: 2px;
   color: #0a58ca;
   font-weight: 500;
 }
-.topnav a:hover {
+.topnav a:hover,
+.topnav a:focus-visible {
   text-decoration: underline;
+}
+.topnav a:focus-visible {
+  outline: 2px solid #0a58ca;
+  outline-offset: 2px;
+  border-radius: 2px;
 }
 
 /* Sections */
 section {
   margin: 40px 0;
+  scroll-margin-top: 80px; /* better in-page anchor landing */
 }
+
 h2 {
   margin-top: 0;
   border-bottom: 1px solid #ddd;
   padding-bottom: 6px;
+  font-size: clamp(1.25rem, 1.2vw + 1rem, 1.6rem);
 }
+
 ul {
   padding-left: 20px;
+  margin: 12px 0;
 }
+ul li { margin: 6px 0; }
 
 /* Footer */
 footer {
@@ -75,19 +92,16 @@ footer {
   margin-top: 40px;
 }
 
-/* Responsive */
+/* Dark mode */
 @media (prefers-color-scheme: dark) {
-  body {
-    background: #0b0b0b;
-    color: #eee;
-  }
-  .tagline, footer {
-    color: #aaa;
-  }
-  .topnav a {
-    color: #9ec3ff;
-  }
-  h2 {
-    border-color: #333;
-  }
+  body { background: #0b0b0b; color: #eee; }
+  .tagline, footer { color: #aaa; }
+  .topnav a { color: #9ec3ff; }
+  h2 { border-color: #333; }
+  header { border-bottom-color: #222; }
+}
+
+/* Reduced motion: respect user preference */
+@media (prefers-reduced-motion: reduce) {
+  html { scroll-behavior: auto; }
 }

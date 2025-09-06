@@ -16,7 +16,7 @@
 ## About
 **American Standards** were a chaotic hardcore / mathcore band from **Phoenix, Arizona (2011–2025)**.  
 Blending metallic hardcore aggression with punk urgency and metalcore precision, the band became known for explosive live shows, raw personal lyrics, and a relentless DIY ethic.  
-Their final LP, *Future Orphans* (2025), cemented their role as a cornerstone of Arizona’s heavy underground.
+Their final LP, *Future Orphans* (2025), cemented their role as a cornerstone of Arizona’s heavy music underground.
 
 ---
 

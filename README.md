@@ -13,7 +13,6 @@
 
 ---
 
-## About
 ## About  
 
 **American Standards** is a chaotic hardcore, mathcore, and metalcore band from **Phoenix, Arizona**, formed in 2011. Known for explosive live shows, deeply personal lyrics, and a relentless DIY work ethic, the band blended the aggression of metal with the urgency of punk to carve out a distinct voice in the underground.  

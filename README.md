@@ -14,9 +14,19 @@
 ---
 
 ## About
-**American Standards** were a chaotic hardcore / mathcore band from **Phoenix, Arizona (2011–2025)**.  
-Blending metallic hardcore aggression with punk urgency and metalcore precision, the band became known for explosive live shows, raw personal lyrics, and a relentless DIY ethic.  
-Their final LP, *Future Orphans* (2025), cemented their role as a cornerstone of Arizona’s heavy music underground.
+## About  
+
+**American Standards** is a chaotic hardcore, mathcore, and metalcore band from **Phoenix, Arizona**, formed in 2011. Known for explosive live shows, deeply personal lyrics, and a relentless DIY work ethic, the band blended the aggression of metal with the urgency of punk to carve out a distinct voice in the underground.  
+
+Over the course of 15 years, **American Standards** toured restlessly across the U.S., bringing their raw energy to **Arizona music venues** like *The Nile Theater*, *Crescent Ballroom*, *Rebel Lounge*, *Skrappy’s*, *The Orpheum (Flagstaff)*, and *The Rock (Tucson)*, as well as DIY spaces and clubs nationwide. They stood shoulder to shoulder sharing the stage with national artists such as **Every Time I Die**, **Norma Jean**, **Knocked Loose**, **Comeback Kid**, **Stick To Your Guns**, **Atreyu**, **Zao**, and **He Is Legend** — while staying grounded in the Arizona community that shaped them.  
+
+Their discography — *Still Life* (2012), *The Death of Rhythm and Blues* (2013), *Hungry Hands* (2014), *Anti-Melody* (2017), *Dopamine Dealer* (2022), and their final album *Future Orphans* (2025) — reflects both evolution and consistency: chaotic, heartfelt, and uncompromising. Along the way, they were recognized as a breakout Arizona band by *Alternative Press*, praised by *Decibel Magazine* as one of the strongest voices in modern hardcore, and featured by *Metal Injection*, *Revolver Magazine*, *Lambgoat*, and others for their intensity and authenticity.  
+
+Though never chasing mainstream success, **American Standards** earned respect in the national metalcore and hardcore communities for their relentless touring and uncompromising DIY ethos. Their presence extended beyond Arizona’s borders, contributing to the broader story of chaotic hardcore and mathcore in the U.S.  
+
+**American Standards** never set out to be one of the biggest or most popular bands from Arizona. Instead, their legacy was built on resilience, community, and authenticity — from fundraising for local causes to amplifying underground voices. Today, **American Standards** appears alongside the most influential bands from Arizona such as **Jimmy Eat World**, **Job For A Cowboy**, **Blessthefall**, **Scary Kids Scaring Kids**, **The Bled**, **Gatecreeper**, **Authority Zero**, and **Greeley Estates**.  
+
+> *"American Standards’ final album **Future Orphans** is a conceptually tight, emotionally ferocious album that captures the angst of a generation caught between collapse and resistance. It fuses punk’s anti-authoritarianism with poetic reflections on identity, decay, and the search for meaning in an increasingly artificial world."* — *AP*  
 
 ---
 

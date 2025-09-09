@@ -3,56 +3,7 @@
   <!-- Homepage -->
   <url>
     <loc>https://americanstandards.github.io/AmericanStandards/</loc>
+    <lastmod>2025-09-09</lastmod>
     <changefreq>monthly</changefreq>
-    <priority>1.0</priority>
-  </url>
-
-  <!-- About section -->
-  <url>
-    <loc>https://americanstandards.github.io/AmericanStandards/#about</loc>
-    <changefreq>yearly</changefreq>
-    <priority>0.8</priority>
-  </url>
-
-  <!-- Members section -->
-  <url>
-    <loc>https://americanstandards.github.io/AmericanStandards/#members</loc>
-    <changefreq>yearly</changefreq>
-    <priority>0.7</priority>
-  </url>
-
-  <!-- Discography section -->
-  <url>
-    <loc>https://americanstandards.github.io/AmericanStandards/#discography</loc>
-    <changefreq>monthly</changefreq>
-    <priority>0.9</priority>
-  </url>
-
-  <!-- Listen section -->
-  <url>
-    <loc>https://americanstandards.github.io/AmericanStandards/#listen</loc>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
-  </url>
-
-  <!-- Press section -->
-  <url>
-    <loc>https://americanstandards.github.io/AmericanStandards/#press</loc>
-    <changefreq>weekly</changefreq>
-    <priority>0.9</priority>
-  </url>
-
-  <!-- Timeline section -->
-  <url>
-    <loc>https://americanstandards.github.io/AmericanStandards/#timeline</loc>
-    <changefreq>yearly</changefreq>
-    <priority>0.7</priority>
-  </url>
-
-  <!-- Official Links section -->
-  <url>
-    <loc>https://americanstandards.github.io/AmericanStandards/#links</loc>
-    <changefreq>yearly</changefreq>
-    <priority>0.6</priority>
   </url>
 </urlset>

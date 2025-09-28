@@ -4,14 +4,24 @@
   <meta charset="utf-8">
   <title>American Standards (Phoenix, AZ) | Chaotic Hardcore / Mathcore (2011–2025)</title>
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <meta name="robots" content="index, follow">
-  <meta name="description" content="American Standards — chaotic hardcore / mathcore / metalcore from Phoenix, Arizona (2011–2025). Final album ‘Future Orphans’ closes a 14-year run in Arizona heavy music.">
+
+  <!-- Robots (expanded for rich snippets) -->
+  <meta name="robots" content="index, follow, max-image-preview:large">
+
+  <!-- Description (slight entity tweak) -->
+  <meta name="description" content="American Standards — Phoenix, Arizona chaotic hardcore / mathcore band (2011–2025). Final album ‘Future Orphans’ closes a 14-year run in Arizona heavy music.">
+
+  <!-- Theme color (nice mobile UI chrome) -->
+  <meta name="theme-color" content="#000000">
 
   <!-- Canonical -->
   <link rel="canonical" href="https://americanstandards.github.io/AmericanStandards/">
 
   <!-- Styles -->
   <link rel="stylesheet" href="style.css">
+
+  <!-- Preload hero image (above-the-fold) -->
+  <link rel="preload" as="image" href="https://f4.bcbits.com/img/0025929526_10.jpg">
 
   <!-- Open Graph -->
   <meta property="og:type" content="website">
@@ -32,27 +42,37 @@
   <meta name="msvalidate.01" content="FDE7C6987BF90BB3D3E617579BFB15BE">
   <meta name="yandex-verification" content="0164563b17058c00">
 
-  <!-- Structured Data: Organization + MusicGroup (band entity) -->
+  <!-- Structured Data: Organization (with ImageObject logo) -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "Organization",
+    "@id": "https://americanstandards.github.io/AmericanStandards/#org",
+    "name": "American Standards",
+    "url": "https://americanstandards.github.io/AmericanStandards/",
+    "logo": {
+      "@type": "ImageObject",
+      "url": "https://f4.bcbits.com/img/0025929526_10.jpg",
+      "width": 1200,
+      "height": 1200
+    },
+    "sameAs": [
+      "https://americanstndrds.bandcamp.com/",
+      "https://open.spotify.com/artist/6umD0mkxpmhNFEn5AgPAhp",
+      "https://music.apple.com/us/artist/american-standards/583200123",
+      "https://www.youtube.com/@AmericanStandardsAZ",
+      "https://www.facebook.com/AmericanStandards/",
+      "https://www.instagram.com/americanstandards/",
+      "https://x.com/americanstndrds"
+    ]
+  }
+  </script>
+
+  <!-- Structured Data: MusicGroup (band entity) -->
   <script type="application/ld+json">
   {
     "@context": "https://schema.org",
     "@graph": [
-      {
-        "@type": "Organization",
-        "@id": "https://americanstandards.github.io/AmericanStandards/#org",
-        "name": "American Standards",
-        "url": "https://americanstandards.github.io/AmericanStandards/",
-        "logo": "https://f4.bcbits.com/img/0025929526_10.jpg",
-        "sameAs": [
-          "https://americanstndrds.bandcamp.com/",
-          "https://open.spotify.com/artist/6umD0mkxpmhNFEn5AgPAhp",
-          "https://music.apple.com/us/artist/american-standards/583200123",
-          "https://www.youtube.com/@AmericanStandardsAZ",
-          "https://www.facebook.com/AmericanStandards/",
-          "https://www.instagram.com/americanstandards/",
-          "https://x.com/americanstndrds"
-        ]
-      },
       {
         "@type": "MusicGroup",
         "@id": "https://americanstandards.github.io/AmericanStandards/#musicgroup",
@@ -107,6 +127,38 @@
   }
   </script>
 
+  <!-- Structured Data: WebPage (primary image + entity ties) -->
+  <script type="application/ld+json">
+  {
+    "@context":"https://schema.org",
+    "@type":"WebPage",
+    "@id":"https://americanstandards.github.io/AmericanStandards/#webpage",
+    "url":"https://americanstandards.github.io/AmericanStandards/",
+    "name":"American Standards (Phoenix, AZ) | Chaotic Hardcore / Mathcore (2011–2025)",
+    "inLanguage":"en",
+    "primaryImageOfPage":{
+      "@type":"ImageObject",
+      "url":"https://f4.bcbits.com/img/0025929526_10.jpg",
+      "width":1200,
+      "height":1200
+    },
+    "about":{"@id":"https://americanstandards.github.io/AmericanStandards/#musicgroup"},
+    "isPartOf":{"@id":"https://americanstandards.github.io/AmericanStandards/#website"}
+  }
+  </script>
+
+  <!-- Structured Data: Breadcrumbs (site-level) -->
+  <script type="application/ld+json">
+  {
+    "@context":"https://schema.org",
+    "@type":"BreadcrumbList",
+    "itemListElement":[
+      {"@type":"ListItem","position":1,"name":"Home","item":"https://americanstandards.github.io/AmericanStandards/"},
+      {"@type":"ListItem","position":2,"name":"Playlists","item":"https://americanstandards.github.io/AmericanStandards/playlists/"}
+    ]
+  }
+  </script>
+
   <!-- Structured Data: Discography list for discovery -->
   <script type="application/ld+json">
   {
@@ -127,11 +179,18 @@
 
 <body>
   <header>
+    <!-- Visible breadcrumbs -->
+    <nav aria-label="Breadcrumbs" class="breadcrumbs">
+      <a href="/AmericanStandards/">Home</a> › <span>Overview</span>
+    </nav>
+
     <img src="https://f4.bcbits.com/img/0025929526_10.jpg"
          alt="American Standards — Future Orphans cover / promotional image"
-         width="1200" height="1200" loading="lazy" class="hero">
+         width="1200" height="1200" fetchpriority="high" decoding="async" class="hero">
+
     <h1>American Standards (Phoenix, AZ)</h1>
     <p class="tagline">Chaotic Hardcore • Mathcore • Punk • Metalcore — 2011–2025</p>
+
     <nav class="topnav" aria-label="Primary">
       <a href="#about">About</a>
       <a href="#members">Members</a>
@@ -140,13 +199,18 @@
       <a href="#press">Press</a>
       <a href="#timeline">Timeline</a>
       <a href="#links">Official Links</a>
+      <!-- New internal hub link -->
+      <a href="/AmericanStandards/playlists/">Playlists</a>
     </nav>
   </header>
 
   <main>
     <section id="about">
       <h2>About</h2>
-      <p><strong>American Standards</strong> was a chaotic hardcore, mathcore, and metalcore band from Phoenix, Arizona (2011–2025). Known for explosive live shows, personal lyrics, and a DIY ethos, the band blended the aggression of metal with the urgency of punk.</p>
+      <p><strong>American Standards</strong> was a chaotic hardcore, mathcore, and metalcore band from Phoenix, Arizona (2011–2025).
+      For city/genre discovery (e.g., “Phoenix AZ hardcore”), see our
+      <a href="/AmericanStandards/playlists/">American Standards Spotify playlists by city &amp; genre</a>.
+      Known for explosive live shows, personal lyrics, and a DIY ethos, the band blended the aggression of metal with the urgency of punk.</p>
       <p>Across the U.S., they shared stages with artists including Every Time I Die, Norma Jean, Knocked Loose, Comeback Kid, Stick To Your Guns, Atreyu, Zao, and He Is Legend, while remaining rooted in Arizona’s scene.</p>
       <p>Their discography spans <em>Still Life</em> (2012), <em>The Death of Rhythm and Blues</em> (2013), <em>Hungry Hands</em> (2014), <em>Anti-Melody</em> (2017), <em>Dopamine Dealer</em> (2023), and final album <em>Future Orphans</em> (2025).</p>
     </section>
@@ -193,10 +257,10 @@
     <section id="listen">
       <h2>Listen</h2>
       <ul>
-        <li><a href="https://americanstndrds.bandcamp.com/" target="_blank" rel="nofollow noopener noreferrer">Bandcamp</a></li>
-        <li><a href="https://open.spotify.com/artist/6umD0mkxpmhNFEn5AgPAhp" target="_blank" rel="nofollow noopener noreferrer">Spotify</a></li>
-        <li><a href="https://music.apple.com/us/artist/american-standards/583200123" target="_blank" rel="nofollow noopener noreferrer">Apple Music</a></li>
-        <li><a href="https://www.youtube.com/@AmericanStandardsAZ" target="_blank" rel="nofollow noopener noreferrer">YouTube</a></li>
+        <li><a href="https://americanstndrds.bandcamp.com/" target="_blank" rel="noopener noreferrer">Bandcamp</a></li>
+        <li><a href="https://open.spotify.com/artist/6umD0mkxpmhNFEn5AgPAhp" target="_blank" rel="noopener noreferrer">Spotify</a></li>
+        <li><a href="https://music.apple.com/us/artist/american-standards/583200123" target="_blank" rel="noopener noreferrer">Apple Music</a></li>
+        <li><a href="https://www.youtube.com/@AmericanStandardsAZ" target="_blank" rel="noopener noreferrer">YouTube</a></li>
       </ul>
     </section>
 
@@ -253,13 +317,14 @@
     <section id="links">
       <h2>Official Links</h2>
       <ul>
-        <li><a href="https://americanstndrds.bandcamp.com/" target="_blank" rel="nofollow noopener noreferrer">Bandcamp</a></li>
-        <li><a href="https://open.spotify.com/artist/6umD0mkxpmhNFEn5AgPAhp" target="_blank" rel="nofollow noopener noreferrer">Spotify</a></li>
-        <li><a href="https://music.apple.com/us/artist/american-standards/583200123" target="_blank" rel="nofollow noopener noreferrer">Apple Music</a></li>
-        <li><a href="https://www.youtube.com/@AmericanStandardsAZ" target="_blank" rel="nofollow noopener noreferrer">YouTube</a></li>
-        <li><a href="https://www.instagram.com/americanstandards/" target="_blank" rel="nofollow noopener noreferrer">Instagram</a></li>
-        <li><a href="https://x.com/americanstndrds" target="_blank" rel="nofollow noopener noreferrer">X (Twitter)</a></li>
-        <li><a href="https://www.facebook.com/AmericanStandards/" target="_blank" rel="nofollow noopener noreferrer">Facebook</a></li>
+        <li><a href="https://americanstndrds.bandcamp.com/" target="_blank" rel="noopener noreferrer">Bandcamp</a></li>
+        <li><a href="https://open.spotify.com/artist/6umD0mkxpmhNFEn5AgPAhp" target="_blank" rel="noopener noreferrer">Spotify</a></li>
+        <li><a href="https://music.apple.com/us/artist/american-standards/583200123" target="_blank" rel="noopener noreferrer">Apple Music</a></li>
+        <li><a href="https://www.youtube.com/@AmericanStandardsAZ" target="_blank" rel="noopener noreferrer">YouTube</a></li>
+        <li><a href="https://www.instagram.com/americanstandards/" target="_blank" rel="noopener noreferrer">Instagram</a></li>
+        <li><a href="https://x.com/americanstndrds" target="_blank" rel="noopener noreferrer">X (Twitter)</a></li>
+        <li><a href="https://www.facebook.com/AmericanStandards/" target="_blank" rel="noopener noreferrer">Facebook</a></li>
+        <li><a href="/AmericanStandards/playlists/">Spotify Playlists by City &amp; Genre</a></li>
       </ul>
     </section>
   </main>

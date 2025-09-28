@@ -1,47 +1,196 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
 <head>
   <meta charset="utf-8">
-  <title>American Standards Spotify Playlists | City & Genre Hardcore / Mathcore</title>
+  <title>American Standards Spotify Playlists — Phoenix AZ Hardcore, Mathcore & Metal</title>
+  <meta name="description" content="Crawlable hub of American Standards Spotify playlists targeting Phoenix, Arizona and genre searches (hardcore, mathcore, metal). Titles are pulled live from Spotify to stay accurate.">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <meta name="description" content="Curated Spotify playlists by American Standards — hardcore, mathcore, and metalcore playlists tagged by city & genre to help fans discover heavy music.">
   <meta name="robots" content="index, follow, max-image-preview:large">
   <link rel="canonical" href="https://americanstandards.github.io/AmericanStandards/playlists/">
-  <link rel="stylesheet" href="../style.css">
-</head>
 
+  <!-- Social cards -->
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="American Standards — Spotify Playlists (Phoenix, AZ)">
+  <meta property="og:description" content="Phoenix AZ hardcore, mathcore & metal playlists for city + genre discovery.">
+  <meta property="og:url" content="https://americanstandards.github.io/AmericanStandards/playlists/">
+  <meta name="twitter:card" content="summary">
+
+  <!-- Speed hints for Spotify -->
+  <link rel="preconnect" href="https://open.spotify.com" crossorigin>
+  <link rel="preconnect" href="https://i.scdn.co" crossorigin>
+
+  <style>
+    :root { --maxw: 1100px; --pad: clamp(14px, 2.4vw, 28px); --radius: 14px; }
+    *{box-sizing:border-box}
+    body{margin:0;font-family:system-ui,-apple-system,Segoe UI,Roboto,Arial,sans-serif;line-height:1.55;color:#0f1112;background:#fff}
+    header,main,footer{max-width:var(--maxw);margin:0 auto;padding:var(--pad)}
+    header{padding-top:calc(var(--pad)*1.4)}
+    .breadcrumbs{font-size:.95rem;color:#666;margin-bottom:10px}
+    .breadcrumbs a{color:inherit;text-decoration:none}
+    h1{font-size:clamp(1.9rem,3.2vw,2.5rem);margin:0 0 6px}
+    .sub{margin:0 0 16px;color:#364047}
+    .grid{display:grid;gap:24px;grid-template-columns:repeat(auto-fit,minmax(320px,1fr))}
+    .card{border:1px solid #e7e7ea;border-radius:var(--radius);overflow:hidden;background:#fff}
+    iframe{display:block;width:100%;height:352px;border:0}
+    .info{padding:14px 16px}
+    .info h2{font-size:1.05rem;margin:0 0 6px;line-height:1.35}
+    .info p{margin:0 0 6px;color:#2b2f33}
+    .links a{margin-right:12px}
+    footer{border-top:1px solid #e7e7ea;margin-top:28px;padding-bottom:calc(var(--pad)*2)}
+    .sr-only{position:absolute;width:1px;height:1px;padding:0;margin:-1px;overflow:hidden;clip:rect(0,0,0,0);white-space:nowrap;border:0}
+    ol{padding-left:20px}
+  </style>
+</head>
 <body>
+  <a class="sr-only" href="#main">Skip to content</a>
+
   <header>
-    <nav aria-label="Breadcrumbs" class="breadcrumbs">
+    <nav class="breadcrumbs" aria-label="Breadcrumbs">
       <a href="/AmericanStandards/">Home</a> › <span>Playlists</span>
     </nav>
-
-    <h1>American Standards Spotify Playlists</h1>
-    <p class="tagline">Discover chaotic hardcore, mathcore, and metalcore playlists by city & genre.</p>
+    <h1>American Standards — Spotify Playlists</h1>
+    <p class="sub">Phoenix, Arizona hardcore, mathcore, and metal—curated playlists for city &amp; genre discovery. Titles are fetched from Spotify for accuracy.</p>
   </header>
 
-  <main>
-    <section>
-      <h2>Why Playlists?</h2>
-      <p>We’ve built genre + location–optimized Spotify playlists to help heavy music fans discover American Standards alongside similar bands. These playlists target searches like <em>Phoenix hardcore</em>, <em>Arizona mathcore</em>, and beyond.</p>
+  <main id="main">
+    <section aria-labelledby="list">
+      <h2 id="list">Playlists</h2>
+      <div id="playlist-grid" class="grid" aria-live="polite">
+        <!-- Cards will be injected here -->
+      </div>
     </section>
 
-    <section id="playlists">
-      <h2>Featured Playlists</h2>
-      <ul class="playlist-list">
-        <li><a href="https://open.spotify.com/playlist/2LJ7n4O1yZZurQVizm6z0e?si=292PLDvmTUmvBlCXMVW8zA" target="_blank" rel="noopener">Phoenix AZ Hardcore Playlist</a></li>
-        <li><a href="https://open.spotify.com/playlist/5fiim6FbxK1WDCcr60poEK?si=Nfo0sSkYSkqKm69-5rKF9Q" target="_blank" rel="noopener">Arizona Mathcore Essentials</a></li>
-        <li><a href="https://open.spotify.com/playlist/3uwZI41szlw5jM80ZDIs6l?si=zeoroeBRQWq1zNcxdCukkQ" target="_blank" rel="noopener">Metalcore from the Southwest</a></li>
-        <li><a href="https://open.spotify.com/playlist/28Xf7fAhRIVab5FucwaByj?si=XYbetsT8TvOFprGhCi71cA" target="_blank" rel="noopener">Chaotic Hardcore Deep Cuts</a></li>
-        <li><a href="https://open.spotify.com/playlist/7HbvIu5QRKIOVCuFdTRYER?si=4IRkmta4S3yKuzqB7rYWtw" target="_blank" rel="noopener">American Standards Complete Discography</a></li>
-        <li><a href="https://open.spotify.com/playlist/2fgF5nuIZH7mHYlY73l3B5?si=VUg5IHMhT3-UTBPL78yZ8A" target="_blank" rel="noopener">Mathcore Discoveries USA</a></li>
-        <!-- Add the rest of your playlist URLs here with descriptive SEO titles -->
-      </ul>
+    <!-- Extra crawlable text links (helps indexing without JS) -->
+    <section aria-labelledby="direct">
+      <h2 id="direct">Direct Playlist Links</h2>
+      <ol id="direct-links">
+        <!-- Text links will be injected here (canonicalized) -->
+      </ol>
+      <noscript><p>Enable JavaScript to see playlist titles. The links above still work without it.</p></noscript>
     </section>
   </main>
 
   <footer>
-    <p>© American Standards 2011–2025 • Phoenix, Arizona</p>
+    <p>© <span id="y"></span> American Standards • <a href="https://open.spotify.com/artist/6umD0mkxpmhNFEn5AgPAhp" target="_blank" rel="noopener">Follow on Spotify</a> • <a href="https://github.com/americanstandards/AmericanStandards" target="_blank" rel="noopener">GitHub</a></p>
   </footer>
+
+  <script>
+    // 1) Your original playlist URLs (exactly as provided)
+    const playlistUrls = [
+      "https://open.spotify.com/playlist/2LJ7n4O1yZZurQVizm6z0e?si=292PLDvmTUmvBlCXMVW8zA",
+      "https://open.spotify.com/playlist/5fiim6FbxK1WDCcr60poEK?si=Nfo0sSkYSkqKm69-5rKF9Q",
+      "https://open.spotify.com/playlist/3uwZI41szlw5jM80ZDIs6l?si=zeoroeBRQWq1zNcxdCukkQ",
+      "https://open.spotify.com/playlist/28Xf7fAhRIVab5FucwaByj?si=XYbetsT8TvOFprGhCi71cA",
+      "https://open.spotify.com/playlist/7HbvIu5QRKIOVCuFdTRYER?si=4IRkmta4S3yKuzqB7rYWtw",
+      "https://open.spotify.com/playlist/2fgF5nuIZH7mHYlY73l3B5?si=VUg5IHMhT3-UTBPL78yZ8A",
+      "https://open.spotify.com/playlist/37i9dQZF1DZ06evO3PD35J?si=mQBXiGBpQNuJfGoxun7kiw",
+      "https://open.spotify.com/playlist/36QbIlGISZXlGWjNttn1Fq?si=6LN3YQOTTd-mru2whJQW4Q&pi=H4TfYo1-RyOAy",
+      "https://open.spotify.com/playlist/3Dgu05tLPC7Cg2mNW9bvsq?si=f7Q3NDsQSTaBKiPctRVDXw&pi=B1U9PCUOSw6lA",
+      "https://open.spotify.com/playlist/04HZgmNxyZ7dE3ye5Izn2h?si=hoDodF1wSMuoZ8S6ZifPPA&pi=rd_HztnWR_6A4",
+      "https://open.spotify.com/playlist/3xqN3xltNGT8qCw31jxsCu?si=fxtNw7F8SNKSmNgHCqcqNw&pi=RIa4s_6KSty-t",
+      "https://open.spotify.com/playlist/3F5AdgDYDE7vvcgbjlRkV8?si=3RFIGy89RBqR3Iotw7iIHA&pi=Ny7uxHvBRAWaw",
+      "https://open.spotify.com/playlist/1Ps2Yy3qbfBTaG8Rth4zqh?si=vQuZfcOsQ3OpM6cgf4DyZA&pi=Zo4CF4j_RECFr",
+      "https://open.spotify.com/playlist/1IEbjvtS9Gp2pQq9W8aLwK?si=Jc4RJGd0RveuIMs5P5GJ0w",
+      "https://open.spotify.com/playlist/2ORfdEaA92ZuXecWYBvZgs?si=phMqxToVTyiGn1_oAda0FA",
+      "https://open.spotify.com/playlist/4FSPWkkpt1tZ079TJEPO9p?si=y-Sk5pbeSBWzomkWyZZuHg",
+      "https://open.spotify.com/playlist/4ZZwvKhPSNnfHIUhulJKNw?si=mrn4pImPT6uYB4LWzEeMNw"
+    ];
+
+    // 2) Helper: strip tracking to get canonical URL
+    const canonical = (u) => {
+      try {
+        const url = new URL(u);
+        url.search = ""; // remove ?si= and others
+        return url.toString();
+      } catch(e){ return u; }
+    };
+
+    // 3) Render text links immediately (SEO-friendly)
+    const linksOl = document.getElementById('direct-links');
+    playlistUrls.forEach((u, i) => {
+      const li = document.createElement('li');
+      const a = document.createElement('a');
+      a.href = canonical(u);
+      a.target = "_blank";
+      a.rel = "noopener";
+      a.textContent = canonical(u); // replaced with title after fetch
+      li.appendChild(a);
+      linksOl.appendChild(li);
+    });
+
+    // 4) Fetch titles from Spotify oEmbed, build cards + JSON-LD ItemList
+    const grid = document.getElementById('playlist-grid');
+    const itemList = { "@context":"https://schema.org", "@type":"ItemList", "name":"American Standards Spotify Playlists", "itemListOrder":"https://schema.org/ItemListOrderAscending", "url": location.href, "numberOfItems": playlistUrls.length, "itemListElement":[] };
+
+    const fetchTitle = async (url) => {
+      const oembed = `https://open.spotify.com/oembed?url=${encodeURIComponent(canonical(url))}`;
+      const res = await fetch(oembed, {mode:'cors'});
+      if (!res.ok) throw new Error('oEmbed failed');
+      const data = await res.json();
+      return data.title || 'Spotify playlist';
+    };
+
+    const buildCard = (title, url) => {
+      const wrap = document.createElement('article');
+      wrap.className = 'card';
+      wrap.setAttribute('itemscope','');
+      wrap.setAttribute('itemtype','https://schema.org/MusicPlaylist');
+
+      const iframe = document.createElement('iframe');
+      iframe.loading = 'lazy';
+      iframe.title = title;
+      iframe.src = canonical(url).replace('/playlist/','/embed/playlist/');
+      wrap.appendChild(iframe);
+
+      const info = document.createElement('div');
+      info.className = 'info';
+      const h2 = document.createElement('h2');
+      h2.setAttribute('itemprop','name');
+      h2.textContent = title;
+      const p = document.createElement('p');
+      p.className = 'links';
+      p.innerHTML = `<a itemprop="url" href="${canonical(url)}" target="_blank" rel="noopener">Open on Spotify</a> · <a href="https://github.com/americanstandards/AmericanStandards" target="_blank" rel="noopener">Listed on GitHub</a>`;
+      info.appendChild(h2);
+      info.appendChild(p);
+      wrap.appendChild(info);
+
+      grid.appendChild(wrap);
+    };
+
+    (async () => {
+      for (let i = 0; i < playlistUrls.length; i++) {
+        const url = playlistUrls[i];
+        let title = 'Spotify playlist';
+        try {
+          title = await fetchTitle(url);
+        } catch (e) {
+          // fallback keeps page working even if a fetch fails
+        }
+        // Update the corresponding text link with the fetched title
+        const li = linksOl.children[i];
+        if (li && li.firstChild) li.firstChild.textContent = title;
+
+        // Add to JSON-LD ItemList
+        itemList.itemListElement.push({
+          "@type":"ListItem",
+          "position": i+1,
+          "name": title,
+          "url": canonical(url)
+        });
+
+        // Build the visual card
+        buildCard(title, url);
+      }
+
+      // Inject JSON-LD after we have all titles
+      const script = document.createElement('script');
+      script.type = 'application/ld+json';
+      script.textContent = JSON.stringify(itemList);
+      document.head.appendChild(script);
+    })();
+
+    // footer year
+    document.getElementById('y').textContent = new Date().getFullYear();
+  </script>
 </body>
 </html>
